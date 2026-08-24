@@ -1,4 +1,5 @@
 import tkinter as tk
+from game_logic import setup_game
 SIZE = 15
 CELL_SIZE = 40
 window = tk.Tk()
@@ -22,4 +23,5 @@ for i in range(SIZE + 1):
         i * CELL_SIZE,
         SIZE * CELL_SIZE
     )
+    setup_game(canvas, SIZE, CELL_SIZE)
 window.mainloop()
