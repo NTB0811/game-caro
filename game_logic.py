@@ -64,3 +64,6 @@ def click(event, canvas, size, cell_size):
         current_player = "O"
     else:
         current_player = "X"
+        
+    # thu vien
+        
